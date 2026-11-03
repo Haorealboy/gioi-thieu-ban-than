@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bóng đá - Thể thao</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Điều hướng chính">
+            <button class="nav-toggle" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="primary-navigation">
+                <a href="index.html">Trang chủ</a>
+                <a href="gioithieu.html">Giới thiệu</a>
+                <a href="truong.html">Trường THPT</a>
+                <a href="sothich.html">Sở thích</a>
+                <a href="thethao.html" class="active">Thể thao</a>
+                <div class="site-controls">
+                    <button class="theme-toggle" type="button" aria-pressed="false">Giao diện tối</button>
+                    <button class="language-toggle" type="button" aria-label="Switch to English">EN</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="football-page container">
+            <section class="football-intro" aria-labelledby="football-title">
+                <p class="football-intro__eyebrow">Môn thể thao yêu thích</p>
+                <h1 id="football-title">Bóng đá</h1>
+                <p>Mình yêu thích bóng đá vì đây là môn thể thao sôi động, giúp rèn luyện sức khỏe và tinh thần đồng đội. Mỗi trận đấu đều có những khoảnh khắc bất ngờ; được cùng bạn bè chuyền bóng, phối hợp và cổ vũ nhau khiến mình cảm thấy rất vui. Bóng đá cũng dạy mình sự kiên trì, kỷ luật và cách cùng nhau hướng tới mục tiêu chung.</p>
+            </section>
+
+            <section class="football-section" aria-labelledby="schedule-title">
+                <h2 id="schedule-title">Lịch thi đấu/tập luyện trong tuần</h2>
+                <p class="football-section__note">Lịch bên dưới là dữ liệu mẫu, bạn có thể thay đổi theo thời gian biểu của mình.</p>
+                <div class="football-table-wrap">
+                    <table class="football-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Ngày</th>
+                                <th scope="col">Thời gian</th>
+                                <th scope="col">Hoạt động</th>
+                                <th scope="col">Địa điểm</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Thứ Hai</th>
+                                <td>16:30–18:00</td>
+                                <td>Tập chuyền và kiểm soát bóng</td>
+                                <td>Sân bóng gần nhà</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thứ Ba</th>
+                                <td>—</td>
+                                <td>Nghỉ ngơi</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thứ Tư</th>
+                                <td>16:30–18:00</td>
+                                <td>Luyện thể lực và sút bóng</td>
+                                <td>Sân bóng gần nhà</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thứ Năm</th>
+                                <td>—</td>
+                                <td>Nghỉ ngơi</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thứ Sáu</th>
+                                <td>16:30–18:00</td>
+                                <td>Đá giao hữu cùng bạn bè</td>
+                                <td>Sân bóng gần nhà</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cuối tuần</th>
+                                <td>17:00–18:30</td>
+                                <td>Xem hoặc tham gia trận đấu</td>
+                                <td>Sân bóng / tại nhà</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="football-section" aria-labelledby="idol-title">
+                <h2 id="idol-title">Thần tượng</h2>
+                <article class="football-idol">
+                    <img src="images/neymar.jpg" alt="Hình minh họa cầu thủ bóng đá đang dẫn bóng, đại diện cho Neymar">
+                    <div class="football-idol__content">
+                        <h3>Neymar Jr.</h3>
+                        <p>Mình ngưỡng mộ Neymar bởi kỹ thuật rê bóng điêu luyện, lối chơi sáng tạo và sự tự tin trên sân cỏ. Những pha xử lý bóng đầy ngẫu hứng của anh khiến mình thêm yêu bóng đá và có động lực chăm chỉ tập luyện.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="football-section" aria-labelledby="video-title">
+                <h2 id="video-title">Video bóng đá yêu thích</h2>
+                <div class="football-video">
+                    <iframe
+                        src="https://www.youtube.com/embed/OWOjRdmpM6I?si=bjjYPiBbSOmmVOoE"
+                        title="Video bóng đá yêu thích trên YouTube"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>© 2026 Phạm Văn Hào - Đồ án học phần</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

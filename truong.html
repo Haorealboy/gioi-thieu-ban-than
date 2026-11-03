@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường THPT</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Điều hướng chính">
+            <button class="nav-toggle" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="primary-navigation">
+                <a href="index.html">Trang chủ</a>
+                <a href="gioithieu.html">Giới thiệu</a>
+                <a href="truong.html" class="active">Trường THPT</a>
+                <a href="sothich.html">Sở thích</a>
+                <a href="thethao.html">Thể thao</a>
+                <div class="site-controls">
+                    <button class="theme-toggle" type="button" aria-pressed="false">Giao diện tối</button>
+                    <button class="language-toggle" type="button" aria-label="Switch to English">EN</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="school-page container">
+            <section class="school-intro" aria-labelledby="school-title">
+                <p class="school-intro__eyebrow">Ngôi trường của mình</p>
+                <h1 id="school-title">Trường THPT Tân Trào</h1>
+                <dl class="school-info">
+                    <div>
+                        <dt>Địa chỉ</dt>
+                        <dd>856 Trần Tất Văn - Thái Sơn - An Lão - Hải Phòng</dd>
+                    </div>
+                    <div>
+                        <dt>Năm thành lập</dt>
+                        <dd>1997</dd>
+                    </div>
+                </dl>
+                <p class="school-intro__description">Trường THPT Tân Trào là nơi mình học tập, rèn luyện và có nhiều cơ hội khám phá những điều mới. Thầy cô tận tình, bạn bè thân thiện cùng nhiều hoạt động ý nghĩa đã góp phần tạo nên những năm tháng học trò đáng nhớ.</p>
+            </section>
+
+            <section class="school-memory" aria-labelledby="memory-title">
+                <h2 id="memory-title">Kỷ niệm của mình</h2>
+                <p>Mình luôn nhớ những buổi học vui vẻ cùng bạn bè, những lần cả lớp cùng chuẩn bị cho hoạt động của trường và sự động viên của thầy cô. Đó là những kỷ niệm đẹp khiến mình thêm yêu quý mái trường. (Bạn có thể thay bằng kỷ niệm thật của mình.)</p>
+            </section>
+
+            <section class="school-gallery" aria-labelledby="gallery-title">
+                <h2 id="gallery-title">Thư viện ảnh</h2>
+                <div class="school-slideshow" aria-label="Trình chiếu ảnh trường">
+                    <img class="school-slideshow__image" src="images/khuôn viên.jpg" alt="Khuôn viên trường">
+                    <p class="school-slideshow__caption">Khuôn viên trường</p>
+                    <div class="school-slideshow__controls">
+                        <button class="school-slideshow__previous" type="button" aria-label="Ảnh trước">Trước</button>
+                        <span class="school-slideshow__status" aria-live="off"></span>
+                        <button class="school-slideshow__pause" type="button" aria-label="Tạm dừng trình chiếu">Tạm dừng</button>
+                        <button class="school-slideshow__next" type="button" aria-label="Ảnh tiếp theo">Tiếp</button>
+                    </div>
+                </div>
+                <div class="school-gallery__grid">
+                    <figure class="school-gallery__item">
+                        <img src="images/khuôn viên.jpg" alt="Khuôn viên trường">
+                        <figcaption>Khuôn viên trường</figcaption>
+                    </figure>
+                    <figure class="school-gallery__item">
+                        <img src="images/cổng 2.jpg" alt="Cổng trường">
+                        <figcaption>Cổng trường</figcaption>
+                    </figure>
+                    <figure class="school-gallery__item">
+                        <img src="images/lớp.jpg" alt="Lớp học thân quen">
+                        <figcaption>Lớp học thân quen</figcaption>
+                    </figure>
+                    <figure class="school-gallery__item">
+                        <img src="images/hoạt động.jpg" alt="Hoạt động học tập">
+                        <figcaption>Hoạt động học tập</figcaption>
+                    </figure>
+                    <figure class="school-gallery__item">
+                        <img src="images/khóa ngoại.jpg" alt="Hoạt động ngoại khóa">
+                        <figcaption>Hoạt động ngoại khóa</figcaption>
+                    </figure>
+                    <figure class="school-gallery__item">
+                        <img src="images/thầy cô 1.jpg" alt="Thầy cô và bạn bè">
+                        <figcaption>Thầy cô và bạn bè</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>© 2026 Phạm Văn Hào - Đồ án học phần</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

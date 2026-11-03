@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Điều hướng chính">
+            <button class="nav-toggle" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="primary-navigation">
+                <a href="index.html" class="active">Trang chủ</a>
+                <a href="gioithieu.html">Giới thiệu</a>
+                <a href="truong.html">Trường THPT</a>
+                <a href="sothich.html">Sở thích</a>
+                <a href="thethao.html">Thể thao</a>
+                <div class="site-controls">
+                    <button class="theme-toggle" type="button" aria-pressed="false">Giao diện tối</button>
+                    <button class="language-toggle" type="button" aria-label="Switch to English">EN</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <img class="hero__avatar" src="images/avarta.jpg" alt="Ảnh đại diện của Phạm Văn Hào">
+            <div class="hero__content">
+                <p class="hero__greeting">Xin chào, mình là</p>
+                <h1>Phạm Văn Hào</h1>
+                <p class="hero__description">Chào mừng bạn đến với trang cá nhân của mình. Cùng khám phá thêm về mình nhé!</p>
+                <a class="button" href="gioithieu.html">Xem thêm về mình</a>
+            </div>
+        </section>
+
+        <section class="home-sections container" aria-label="Khám phá thêm">
+            <a class="home-card" href="gioithieu.html">
+                <h2>Giới thiệu</h2>
+                <p>Tìm hiểu thêm về mình.</p>
+                <span class="home-card__link">Khám phá &rarr;</span>
+            </a>
+            <a class="home-card" href="truong.html">
+                <h2>Trường THPT Tân Trào</h2>
+                <p>Ghé thăm ngôi trường của mình.</p>
+                <span class="home-card__link">Khám phá &rarr;</span>
+            </a>
+            <a class="home-card" href="sothich.html">
+                <h2>Sở thích</h2>
+                <p>Khám phá những điều mình yêu thích.</p>
+                <span class="home-card__link">Khám phá &rarr;</span>
+            </a>
+            <a class="home-card" href="thethao.html">
+                <h2>Thể thao</h2>
+                <p>Tìm hiểu về các hoạt động thể thao.</p>
+                <span class="home-card__link">Khám phá &rarr;</span>
+            </a>
+        </section>
+    </main>
+    <footer>© 2026 Phạm Văn Hào - Đồ án học phần</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
