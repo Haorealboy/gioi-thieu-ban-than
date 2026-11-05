@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sở thích</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Điều hướng chính -->
+    <header>
+        <nav aria-label="Điều hướng chính">
+            <button class="nav-toggle" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="primary-navigation">
+                <a href="index.html">Trang chủ</a>
+                <a href="gioithieu.html">Giới thiệu</a>
+                <a href="truong.html">Trường THPT</a>
+                <a href="sothich.html" class="active">Sở thích</a>
+                <a href="thethao.html">Thể thao</a>
+                <div class="site-controls">
+                    <button class="theme-toggle" type="button" aria-pressed="false">Giao diện tối</button>
+                    <button class="language-toggle" type="button" aria-label="Switch to English">EN</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Nội dung sở thích -->
+    <main>
+        <div class="hobby-page container">
+            <!-- Các sở thích -->
+            <section aria-labelledby="hobby-title">
+                <div class="hobby-page__intro">
+                    <p class="hobby-page__eyebrow">Khám phá thêm về mình</p>
+                    <h1 id="hobby-title">Sở thích của mình</h1>
+                    <p>Đây là một vài điều mình yêu thích trong cuộc sống.</p>
+                </div>
+
+                <div class="hobby-grid">
+                    <article class="hobby-card">
+                        <img src="images/am-nhac.svg" alt="Minh họa chiếc đĩa nhạc và nốt nhạc">
+                        <div class="hobby-card__content">
+                            <h2>Âm nhạc</h2>
+                            <p>Mình thích nghe nhạc để thư giãn sau giờ học. Những giai điệu vui tươi giúp mình có thêm năng lượng, còn những bản nhạc nhẹ nhàng giúp mình tập trung hơn.</p>
+                        </div>
+                    </article>
+                    <article class="hobby-card">
+                        <img src="images/du-lich.jpg" alt="Tháp cổ soi bóng xuống mặt hồ vào buổi tối">
+                        <div class="hobby-card__content">
+                            <h2>Du lịch</h2>
+                            <p>Mình thích cảm giác được tạm rời nhịp sống thường ngày, ngắm nhìn cảnh vật mới và tận hưởng không khí khác lạ. Mỗi chuyến đi giúp mình thư giãn, mở mang thêm điều mới và mang về những cảm xúc dễ chịu.</p>
+                        </div>
+                    </article>
+                    <article class="hobby-card">
+                        <img src="images/am-thuc.svg" alt="Minh họa một tô mì nóng cùng rau thơm">
+                        <div class="hobby-card__content">
+                            <h2>Ẩm thực</h2>
+                            <p>Mình thích thưởng thức các món ăn ngon, đặc biệt là những món đặc sản ở mỗi vùng miền. Mình cũng muốn thử học nấu thêm nhiều món mới.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Danh sách bài hát yêu thích -->
+            <section class="favorites" aria-labelledby="favorites-title">
+                <h2 id="favorites-title">Top 5 bài hát yêu thích</h2>
+                <ol class="favorites__list">
+                    <li><span>Người tình mùa đông</span></li>
+                    <li><span>Buông</span></li>
+                    <li><span>Nhớ em</span></li>
+                    <li><span>Mưa Tuyết</span></li>
+                    <li><span>Tháng năm rực rỡ</span></li>
+                </ol>
+            </section>
+        </div>
+    </main>
+    <!-- Chân trang -->
+    <footer>© 2026 Phạm Văn Hào - Đồ án học phần</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
